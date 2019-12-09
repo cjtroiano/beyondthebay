@@ -148,10 +148,10 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
@@ -1660,12 +1660,22 @@ input, select, textarea {
 		}
 
 
+.phoneNumber {
+	height: 40px;
+	width: 180px;
+	text-align: center;
+	align-self: flex-end;
+    margin-bottom: auto;
+	position: absolute;
+	border: 1px solid;
+	font-size: 20px;
+	text-transform: uppercase;
+}
 
-		.wineGlass {
-			background: url(../../images/jamie.png) center no-repeat;
-			background-size: contain;
-			height: 10rem;
-			width: 10rem;
-			fill: white;
-			border-radius: 50%;
-		}
+.phoneNumber:hover {
+	border-color: transparent;
+}
+
+.phoneNumber a {
+	text-decoration: none;
+}

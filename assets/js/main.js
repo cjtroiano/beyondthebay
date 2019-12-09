@@ -12,6 +12,7 @@
 		$header = $('#header'),
 		$footer = $('#footer'),
 		$main = $('#main'),
+		$phoneNumber = $('#phoneNumber')
 		$main_articles = $main.children('article');
 
 	// Breakpoints.
@@ -92,9 +93,11 @@
 							// Deactivate all articles (just in case one's already active).
 								$main_articles.removeClass('active');
 
-							// Hide header, footer.
+							// Hide header, footer, and phone number
 								$header.hide();
 								$footer.hide();
+
+								$phoneNumber.hide();
 
 							// Show main, article.
 								$main.show();
