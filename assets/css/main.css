@@ -1673,7 +1673,7 @@ input, select, textarea {
 }
 
 .phoneNumber:hover {
-	border-color: transparent;
+	border: 1px solid white;
 }
 
 .phoneNumber a {

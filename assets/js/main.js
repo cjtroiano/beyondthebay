@@ -1,9 +1,3 @@
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	var	$window = $(window),
@@ -14,6 +8,13 @@
 		$main = $('#main'),
 		$phoneNumber = $('#phoneNumber')
 		$main_articles = $main.children('article');
+
+
+	$phoneNumber.hover(function() {
+		this.innerText = "CLICK TO CALL" 
+	}, function() {
+		this.innerText = "(310)-850-7593"
+	})
 
 	// Breakpoints.
 		breakpoints({
