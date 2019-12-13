@@ -97,7 +97,6 @@
 							// Hide header, footer, and phone number
 								$header.hide();
 								$footer.hide();
-
 								$phoneNumber.hide();
 
 							// Show main, article.
@@ -173,6 +172,7 @@
 								// Hide header, footer.
 									$header.hide();
 									$footer.hide();
+									$phoneNumber.hide();
 
 								// Show main, article.
 									$main.show();
@@ -232,6 +232,7 @@
 							// Show footer, header.
 								$footer.show();
 								$header.show();
+								$phoneNumber.show()
 
 							// Unmark as visible.
 								$body.removeClass('is-article-visible');
@@ -267,6 +268,7 @@
 						// Show footer, header.
 							$footer.show();
 							$header.show();
+							$phoneNumber.show();
 
 						// Unmark as visible.
 							setTimeout(function() {
